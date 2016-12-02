@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+	* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  letter-spacing: 1.1px;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  height: 100%;
+  /*
+background: linear-gradient(180deg, rgb(77, 43, 56), rgb(40, 62, 70));
+background: -webkit-linear-gradient(180deg, rgb(77, 43, 56), rgb(40, 62, 70));
+*/
+  background: #fff;
+}
+header
+{
+	width:100%;
+	height:90px;
+	background:#f1f1f1;
+	padding:20px;
+}
+
+section.container
+{
+	width:100%;
+	padding:20px;
+}
+
